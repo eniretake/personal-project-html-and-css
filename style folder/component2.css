@@ -1,0 +1,18 @@
+.component2{
+    width: 100vw;
+    height: 83.34%;
+}
+.fill{
+    position: absolute;
+    width: 100vw;
+    height: 83.34%;
+    top:6px;
+}
+.phone{
+    position: relative;
+    top:16.24%;
+    width: 27.65%;
+    height: 94.16%;
+    left:17.6%;
+    z-index: 1;
+}

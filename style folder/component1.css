@@ -1,0 +1,134 @@
+body{
+    width: 100vw;
+    height: 100%;
+    overflow: hidden;
+    background-color: white;
+    position: relative;
+    margin: 0px;
+    padding: 0px;
+}
+.component1{
+    box-sizing: border-box;
+    display: flex;
+    position: relative;
+    justify-content: space-between;
+    align-items: center;
+    height: 8.9%;
+    width: 61%;
+    padding-top:1.68% ;
+    left: 19.45%;
+    color: white;
+    z-index: 1;
+}
+.logo{
+    box-sizing: border-box;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 16.35%;
+    height: 68.4%;
+}
+.title{
+    position: relative;
+    box-sizing: border-box;
+    width: 65%;
+    height: 100%;
+    top: -3px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    font-size: 23.8px;
+    line-height: 30px;
+}
+.title span{
+    font-size: 35.69px;
+    font-weight: 900;
+}
+span .green{
+    font-weight: 400;
+    color: #1ABC9C;
+}
+
+.navigation{
+    position: relative;
+    display: flex;
+    width:70%;
+    box-sizing: border-box;
+    padding-left:5.41%;
+    justify-content: space-between;
+    margin-right: -2%;
+}
+.ghost{
+    position: absolute;
+    display: none;
+    background-color:#1ABC9C;
+    width: 10%;
+    height: 6px;
+    top:-286%;
+}
+.navigation li:hover>.ghost{
+    display: block;
+}
+.navigation li:hover{
+    color: #1ABC9C;
+}
+
+.navigation>li span{
+    font-family: 'Lato', sans-serif;
+    font-weight: 600;
+    font-size: 15px;
+}
+.searchShopIcons{
+    position: relative;
+    display: flex;
+    justify-content: space-evenly;
+    padding-top:0.3%;
+}
+.searchShopIcons>div{
+    margin-right: 17%;
+}
+
+@media (max-width: 1678px) {
+    .component1{
+        width: 90%;
+        left: 3%;
+    }
+    .logo{
+        width: 20%;
+        height: 20%;
+    }
+    .title{
+        left: -7%;
+    }
+    .navigation{
+        padding-left: 2%;
+    }
+    .ghost{
+        top:-245%;
+    }
+    .searchShopIcons{
+        right: -3%;
+    }
+  }
+@media (max-width: 960px){
+    .logo{
+        width: 10%;
+        height: 15%;
+    }
+    .title{
+        font-size: 0px;
+    }
+    .title span{
+        font-size:0px;
+    }
+    .navigation{
+        left: -30px;
+        width: 650px;
+    } 
+    .navigation li{
+        margin-right: 1.8%;
+    }
+    .searchShopIcons{
+        display: block;
+    }
+}
