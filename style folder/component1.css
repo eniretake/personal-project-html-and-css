@@ -1,19 +1,21 @@
 body{
     width: 100vw;
     height: 100%;
-    overflow: hidden;
+    overflow-x: hidden;
     background-color: white;
     position: relative;
     margin: 0px;
     padding: 0px;
 }
 .component1{
+    min-width: 930px;
+    overflow: visible;
     box-sizing: border-box;
     display: flex;
     position: relative;
     justify-content: space-between;
     align-items: center;
-    height: 8.9%;
+    height: 96px;
     width: 61%;
     padding-top:1.68% ;
     left: 19.45%;
@@ -21,6 +23,7 @@ body{
     z-index: 1;
 }
 .logo{
+    min-width: 170px;
     box-sizing: border-box;
     position: relative;
     display: flex;
@@ -28,43 +31,47 @@ body{
     justify-content: space-between;
     width: 16.35%;
     height: 68.4%;
+    overflow: visible;
 }
 .title{
     position: relative;
     box-sizing: border-box;
     width: 65%;
-    height: 100%;
     top: -3px;
     font-family: 'Lato', sans-serif;
     font-weight: 400;
     font-size: 23.8px;
     line-height: 30px;
+    overflow: visible;
 }
 .title span{
     font-size: 35.69px;
     font-weight: 900;
+    overflow: visible;
 }
 span .green{
     font-weight: 400;
+    overflow: visible;
     color: #1ABC9C;
 }
 
 .navigation{
-    position: relative;
     display: flex;
     width:70%;
     box-sizing: border-box;
     padding-left:5.41%;
     justify-content: space-between;
+    overflow: visible;
     margin-right: -2%;
 }
+
 .ghost{
     position: absolute;
     display: none;
     background-color:#1ABC9C;
-    width: 10%;
+    width: 8%;
     height: 6px;
-    top:-286%;
+    top:0px;
 }
 .navigation li:hover>.ghost{
     display: block;
@@ -87,7 +94,7 @@ span .green{
 .searchShopIcons>div{
     margin-right: 17%;
 }
-
+/* 
 @media (max-width: 1678px) {
     .component1{
         width: 90%;
@@ -131,4 +138,4 @@ span .green{
     .searchShopIcons{
         display: block;
     }
-}
+} */
