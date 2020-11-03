@@ -1,6 +1,6 @@
 .component3{
     min-width: 1490px;
-    left: 1%;
+    /* left: 1%; */
     position: relative;
     width: 100%;
     height: 784px;
@@ -12,7 +12,7 @@
     display: flex;
     justify-content: space-between;
     position: relative;
-    left: 18.57%;
+    left: 19.57%;
     width: 61.66%;
     top: 4.4%;
 }
@@ -48,7 +48,7 @@
 }
 .articles{
     position: relative;
-    left: 18.75%;
+    left: 19.75%;
     top: 9.9%;
     width: 61.3%;
     display: flex;
@@ -117,4 +117,8 @@ div.productAction{
 .singleArticle:hover .viewDetails{
     background-color: transparent;
     border:1px white solid;
+}
+.nextAndPrev>div:hover{
+    background-color: #2C3E50;
+    color: white;
 }
