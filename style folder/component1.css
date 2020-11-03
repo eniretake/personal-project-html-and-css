@@ -8,6 +8,13 @@ body{
     padding: 0px;
 }
 .component1{
+    width: 100%;
+    height: 96px;
+    left: 0.9%;
+    position: relative;
+    background-color: #415161;
+}
+.firstContent{
     min-width: 930px;
     overflow: visible;
     box-sizing: border-box;
@@ -15,12 +22,17 @@ body{
     position: relative;
     justify-content: space-between;
     align-items: center;
-    height: 96px;
+    height: 87px;
     width: 61.5%;
     padding-top:1.7% ;
-    left: 19.65%;
+    left: 18.75%;
     color: white;
     z-index: 1;
+}
+.whiteStripe{
+    width: 100%;
+    height: 6px;
+    background-color: white;
 }
 .logo{
     min-width: 170px;
@@ -71,7 +83,7 @@ span .green{
     background-color:#1ABC9C;
     width: 8%;
     height: 6px;
-    top:0px;
+    top:-6px;
 }
 .navigation li:hover>.ghost{
     display: block;

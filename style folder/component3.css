@@ -1,0 +1,120 @@
+.component3{
+    min-width: 1490px;
+    left: 1%;
+    position: relative;
+    width: 100%;
+    height: 784px;
+    top: 20px;
+    padding-top: 56px;
+    background-color: #F9FBFA;
+}
+.featProductsHead{
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    left: 18.57%;
+    width: 61.66%;
+    top: 4.4%;
+}
+.featProduct{
+    min-width: 303px;
+    font-family: 'Lato', sans-serif;
+    color: #34495E;
+    font-weight: 300;
+    font-size: 36px;
+    width: 26%;
+}
+.nextAndPrev{
+    min-width: 82px;
+    display: flex;
+    justify-content: space-between;
+    width: 7.3%;
+}
+.nextAndPrev>div{
+    position: relative;
+    top: 16.5%;
+    box-sizing: border-box;
+    width: 44%;    
+    height: 37px;
+    padding-top: 6px;
+    background-color: transparent;
+    border: 1px #A1B1BC solid;
+    color: #A1B1BC;
+    background-color: white;
+    text-align: center;
+    font-weight: 400;
+    font-size: 24px;
+    border-radius: 10px;
+}
+.articles{
+    position: relative;
+    left: 18.75%;
+    top: 9.9%;
+    width: 61.3%;
+    display: flex;
+    justify-content: space-between;
+}
+.singleArticle{
+    box-sizing: border-box;
+    width: 23.1%;
+    height: 562px;
+    background-color: white;
+    padding-top: 367px;
+    font-family: 'Lato', sans-serif;
+    line-height: 33px;
+    font-weight: 700;
+    font-size: 18px;
+}
+.singleArticle>div{
+    padding-left: 7.5%;
+    padding-top: 11.25px;
+    padding-bottom: 13px;
+    padding-right: 7.5%;
+    border: 1px #E6E6E6 solid;
+    box-sizing: border-box;
+}
+.singleArticle>div:last-child{
+    border-top: 0px;
+    border-radius: 0px 0px 8px 8px;
+}
+
+.stars{
+    font-size: 15px;
+    color: #A1B1BC;
+}
+.greenStar{
+    color: #1ABC9C;
+}
+div.productAction{
+    display: flex;
+    width: 100%;
+    height: 68px;
+    justify-content: space-between;
+    padding-top: 21px;
+    padding-bottom: 18px;
+}
+.productAction>div{
+    width: 46%;
+    height: 28px;
+    font-size: 13px;
+    line-height: 29px;
+    font-weight: 400;
+    background-color: #A1B1BC;
+    border-radius: 4px;
+    box-sizing: border-box;
+    color: white;
+    text-align: center;
+}
+
+.singleArticle:hover .productAction, .singleArticle:hover .productDescription{
+    background-color: #34495E;
+    color: white;
+}
+
+.singleArticle:hover .addToCart{
+    background-color: #1ABC9C;
+}
+.singleArticle:hover .viewDetails{
+    background-color: transparent;
+    border:1px white solid;
+}
