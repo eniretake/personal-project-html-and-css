@@ -1,0 +1,140 @@
+.component5{
+    min-width: 1490px;
+    position: relative;
+    width: 100%;
+    height: 1065px;
+    top: 20px;
+    padding-top: 54px;
+}
+.container5{
+    left: 19.75%;
+    width: 61.4%;
+    height: 138px;
+    display: grid;
+    grid-template-rows: 600px, 455px;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 10px;
+    position: relative;
+    font-family: 'Lato', sans-serif;
+}
+.big5{
+    grid-row: 1 / span 1;
+    grid-column: 1/-1;
+    height: 600px;
+    background-color: #CCCCCC;
+    position: relative;
+}
+.title5{
+    position: relative;
+    height: 196px;
+    width: 306px;
+    color: #2C3E50;
+    top: 43.7%;
+    left: 66.8%;
+}
+.hero5{
+    font-weight: 300;
+    font-size: 60px;
+    line-height: 24px;
+}
+span.green3{
+    margin-left: -4px;
+    margin-right: 7px;
+    padding-left: 6px;
+    padding-right: 8px;
+    background-color: #17D8B2;
+    color: white;
+    font-weight: 900;
+    border-radius: 12px;
+    width: auto;
+    height: 10px;
+}
+.descriptionHero5{
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 36px;
+    position: relative;
+    top: 21%;
+    left: 1.9%;
+}
+.moreDetails5 {
+    font-size: 18px;
+    position: relative;
+    left: 67.4%;
+    top: 260px;
+    background-color: #2C3E50;
+    width: 12.7%;
+    height: 50px;
+    color: white;
+    line-height: 50px;
+    text-align: center;
+}
+.little5{
+    width: 100%;
+    height: 455px;
+}
+.hasToChange5{
+    width: 100%;
+    height: 200px;
+    background-color: #CCCCCC;
+    position: relative;
+}
+.ghost5{
+    position: relative;
+    width: 64px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border: 3px white solid;
+    border-radius: 50%;
+    height: 65px;
+    text-align: center;
+    font-size: 52px;
+    font-weight: 300;
+    color: white;
+    display: none;
+}
+span.spanTitle5{
+    font-size: 18px;
+    font-weight: 700;
+    color: #2C3E50;
+}
+.littleDescription5{
+    width:90%;
+    line-height: 24px;
+    font-size: 14px;
+    color: #A1B1BC;
+    position: relative;
+    top: 24px;
+    left: 7.5%;
+    padding-bottom: 58px;
+}
+div.sub5{
+    position: relative;
+    top:6px;
+    left: 0.5%;
+}
+.littleMoreDetails5{
+    position: relative;
+    background-color: #1ABC9C;
+    height: 50px;
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 15px;
+    padding-left: 8.5%;
+    letter-spacing: -0.3px;
+    line-height: 49px;
+}
+.little5:hover .hasToChange5{
+    background-color: #17D8B2;
+}
+.little5:hover .ghost5{
+    display: block;
+}
+.little5:hover .bckg5, .little5:hover .littleDescription5, .little5:hover .spanTitle5{
+    background-color: #2C3E50;
+    color: white;
+}
+.little5:hover .littleMoreDetails5{
+    background-color: #1E2A37;
+}
