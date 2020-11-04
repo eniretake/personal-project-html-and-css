@@ -9,6 +9,7 @@
     background-color: #F9FBFA;
 }
 .featProductsHead{
+    min-width: 1040px;
     display: flex;
     justify-content: space-between;
     position: relative;
@@ -56,7 +57,7 @@
 }
 .singleArticle{
     box-sizing: border-box;
-    width: 23.1%;
+    width: 23.01%;
     height: 562px;
     background-color: white;
     padding-top: 367px;
@@ -94,7 +95,7 @@ div.productAction{
     padding-bottom: 18px;
 }
 .productAction>div{
-    width: 46%;
+    width: 45.4%;
     height: 28px;
     font-size: 13px;
     line-height: 29px;
@@ -104,8 +105,13 @@ div.productAction{
     box-sizing: border-box;
     color: white;
     text-align: center;
+    position: relative;
+    top: -6%;
+    left: 0.6%;
 }
-
+.actiondet3{
+    padding-right: 5px;
+}
 .singleArticle:hover .productAction, .singleArticle:hover .productDescription{
     background-color: #34495E;
     color: white;

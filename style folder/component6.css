@@ -1,0 +1,75 @@
+.component6{
+    position: relative;
+    width: 100%;
+    height: 1274px;
+    padding-top: 54px;
+}
+.liftUp6{
+    position: relative;
+    top: 7.67%;
+}
+div.red6{
+    position: absolute;
+    width: 23.01%;
+    height: 50px;
+    top: 0px;
+    background-color: #E46960;
+    border-radius: 8px 8px 0px 0px;
+    color: white;
+    font-size: 15px;
+    padding: 0px;
+    padding-left: 1.58%;
+    line-height: 48px;
+    font-weight: 400;
+}
+.red6 span, .blue6 span{
+    position: relative;
+    left: 34.9%;
+    top: 5%;
+    font-size: 18px;
+}
+div.blue6{
+    position: absolute;
+    width: 23.01%;
+    height: 50px;
+    top: 0px;
+    background-color: #21C2F8;
+    border-radius: 8px 8px 0px 0px;
+    color: white;
+    font-size: 15px;
+    padding: 0px;
+    padding-left: 1.58%;
+    line-height: 46px;
+    font-weight: 400;
+}
+.singleArticle div.salePrice6{
+    background-color: #21C2F8;
+    font-size: 20px;
+    position: relative;
+    height: 30px;
+    width: 40%;
+    top: -33px;
+    left: 38%;
+    color: white;
+    line-height: 31px;
+    text-align: center;
+    border-radius: 8px;
+    
+}
+.singleArticle div.ghost6{
+    background-color: #21C2F8;
+    height: 30px;
+    width: 15%;
+    font-size: 20px;
+    position: relative;
+    top: -63px;
+    left: 77%;
+    text-align: center;
+    display: none;
+}
+div.salePrice6:hover+div.ghost6{
+    display: inline-block;
+}
+#ex6{
+    padding-bottom: 0px;
+}
